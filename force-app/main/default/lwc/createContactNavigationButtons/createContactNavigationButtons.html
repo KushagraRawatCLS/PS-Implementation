@@ -1,0 +1,16 @@
+<template>
+    <div>
+    <lightning-layout class="slds-border_top" style="padding-top: 12px">
+    <lightning-layout-item flexibility="auto"  style="padding-right:6px" >
+        <lightning-button label={buttonBookLabel} class={getButtonClass} onclick={loadNextTimeSlots}  ></lightning-button>
+    </lightning-layout-item>
+    <!--lightning-layout-item flexibility="auto"  style="padding-right:6px" >
+        <lightning-button label="Previous" class="slds-float_right" onclick={handlePrevious}></lightning-button>
+    </lightning-layout-item>-->
+    <lightning-layout-item >
+        <lightning-button label="Next" onclick={handleNext} variant ="brand"></lightning-button>
+    </lightning-layout-item>
+   
+    </lightning-layout>  
+</div>
+</template>
